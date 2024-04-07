@@ -11,17 +11,11 @@ class TrackingPage extends StatelessWidget {
       body: SafeArea(child: SingleChildScrollView(child: Container(
          height: MediaQuery.of(context).size.height,
           width: MediaQuery.of(context).size.width,
-          
+          color: bgColor,
         
           child: Column( mainAxisAlignment: MainAxisAlignment.start,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Container(     height: MediaQuery.of(context).size.height,
-          width: MediaQuery.of(context).size.width,
-          color: bgColor,
-          padding: EdgeInsets.symmetric(horizontal: 20,vertical: 20),
-
-              child: 
             Row(
               children: [
                 Icon(Icons.arrow_back,color: Colorsecondary,) ,
@@ -33,8 +27,6 @@ class TrackingPage extends StatelessWidget {
             
               ],
             ),
-              ),
-            
             Container(
               height: MediaQuery.of(context).size.height,
               width: MediaQuery.of(context).size.width,
